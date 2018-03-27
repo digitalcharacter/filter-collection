@@ -2,6 +2,11 @@
   "name": "dc/filter",
   "description": "simple filter collection",
   "minimum-stability": "stable",
+  "keywords": [
+    "php",
+    "filter",
+    "collection"
+  ],
   "license": "proprietary",
   "authors": [
     {
