@@ -4,6 +4,7 @@ namespace dc\tests\Filter;
 
 use dc\Filter\Collection;
 use dc\Filter\Type;
+use dc\Exception\CollectionException;
 use PHPUnit\Framework\TestCase;
 
 class CollectionTest extends TestCase
@@ -16,6 +17,9 @@ class CollectionTest extends TestCase
         $this->assertEquals(Collection::LOGICAL_OR, $collection->getLogical());
     }
 
+    /**
+     * @throws CollectionException
+     */
     public function testParent()
     {
         $parent = new Collection();
@@ -24,6 +28,20 @@ class CollectionTest extends TestCase
         $this->assertSame($parent, $child->parent());
     }
 
+    /**
+     * @throws CollectionException
+     */
+    public function testParentException()
+    {
+        $this->expectException(CollectionException::class);
+
+        $collection = new Collection();
+        $collection->parent();
+    }
+
+    /**
+     * @throws CollectionException
+     */
     public function testChild()
     {
         $collection = new Collection();
@@ -31,6 +49,17 @@ class CollectionTest extends TestCase
 
         $this->assertInstanceOf(Collection::class, $collection->child(0));
         $this->assertEquals(Collection::LOGICAL_OR, $collection->child(0)->getLogical());
+    }
+
+    /**
+     * @throws CollectionException
+     */
+    public function testChildException()
+    {
+        $this->expectException(CollectionException::class);
+
+        $collection = new Collection();
+        $collection->child(0);
     }
 
     public function testAddCollection()
@@ -211,15 +240,16 @@ class CollectionTest extends TestCase
     public function testAddRegex()
     {
         $collection = new Collection();
-        $collection->addQuery('key', '/[a-z]+/i');
+        $collection->addRegex('key', '/[a-z]+/i');
 
         $collectionData = $collection->getData();
         /** @var Type\Custom $filter */
         $filter = $collectionData[0];
 
-        $this->assertInstanceOf(Type\Query::class, $filter);
+        $this->assertInstanceOf(Type\Regex::class, $filter);
         $this->assertEquals('key', $filter->getKey());
         $this->assertEquals('/[a-z]+/i', $filter->getValue());
-        $this->assertEquals(Type\Query::FILTER, $filter->getComparison());
+        $this->assertEquals(Type\Regex::FILTER, $filter->getComparison());
     }
+
 }

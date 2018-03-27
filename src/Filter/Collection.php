@@ -4,6 +4,7 @@ namespace dc\Filter;
 
 use dc\Filter\Type;
 use dc\Iterator\RecursiveIterator;
+use dc\Exception\CollectionException;
 
 class Collection implements \IteratorAggregate
 {
@@ -38,11 +39,24 @@ class Collection implements \IteratorAggregate
         return $this->logical;
     }
 
+    /**
+     * @return Collection
+     * @throws CollectionException
+     */
     public function parent(): Collection
     {
+        if ($this->parent === null) {
+            throw CollectionException::noParentFound();
+        }
+
         return $this->parent;
     }
 
+    /**
+     * @param int $index
+     * @return Collection
+     * @throws CollectionException
+     */
     public function child(int $index): Collection
     {
         $indexCount = 0;
@@ -55,7 +69,7 @@ class Collection implements \IteratorAggregate
             }
         }
 
-        return null;
+        throw CollectionException::noChildFound($index);
     }
 
     private function add($data)
