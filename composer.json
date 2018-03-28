@@ -1,5 +1,5 @@
 {
-  "name": "dc/filter",
+  "name": "DigitalCharacter/filter",
   "description": "simple filter collection",
   "minimum-stability": "stable",
   "keywords": [
@@ -25,12 +25,12 @@
   },
   "autoload": {
     "psr-4": {
-      "dc\\": "src/"
+      "DigitalCharacter\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "dc\\tests\\": "tests/"
+      "DigitalCharacter\\tests\\": "tests/"
     }
   }
 }

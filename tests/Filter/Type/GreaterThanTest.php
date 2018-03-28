@@ -1,8 +1,8 @@
 <?php
 
-namespace dc\tests\Filter;
+namespace DigitalCharacter\tests\Filter;
 
-use dc\Filter\Type\GreaterThan;
+use DigitalCharacter\Filter\Type\GreaterThan;
 use PHPUnit\Framework\TestCase;
 
 class GreaterThanTest extends TestCase

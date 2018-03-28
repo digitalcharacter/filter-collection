@@ -1,10 +1,10 @@
 <?php
 
-namespace dc\Filter;
+namespace DigitalCharacter\Filter;
 
-use dc\Filter\Type;
-use dc\Iterator\RecursiveIterator;
-use dc\Exception\CollectionException;
+use DigitalCharacter\Filter\Type;
+use DigitalCharacter\Iterator\RecursiveIterator;
+use DigitalCharacter\Exception\CollectionException;
 
 class Collection implements \IteratorAggregate
 {

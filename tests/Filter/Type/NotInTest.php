@@ -1,8 +1,8 @@
 <?php
 
-namespace dc\tests\Filter;
+namespace DigitalCharacter\tests\Filter;
 
-use dc\Filter\Type\NotIn;
+use DigitalCharacter\Filter\Type\NotIn;
 use PHPUnit\Framework\TestCase;
 
 class NotInTest extends TestCase

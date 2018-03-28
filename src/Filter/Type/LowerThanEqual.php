@@ -1,6 +1,6 @@
 <?php
 
-namespace dc\Filter\Type;
+namespace DigitalCharacter\Filter\Type;
 
 
 final class LowerThanEqual extends Custom

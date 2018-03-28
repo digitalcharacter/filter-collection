@@ -22,7 +22,7 @@ composer require DigitalCharacter/FilterCollection@stable
 ## Change Logical Collection
 ```php
 <?php
-use dc\Filter\Collection;
+use DigitalCharacter\Filter\Collection;
 
 $collection = new Collection(Collection::LOGICAL_AND);
 $collection = new Collection(Collection::LOGICAL_OR);
@@ -33,7 +33,7 @@ $collection = new Collection(Collection::LOGICAL_XOR);
 ## Add Parent Collection
 ```php
 <?php
-use dc\Filter\Collection;
+use DigitalCharacter\Filter\Collection;
 
 $parent = new Collection();
 $child = new Collection(Collection::LOGICAL_AND, $parent);
@@ -42,7 +42,7 @@ $child = new Collection(Collection::LOGICAL_AND, $parent);
 ## Available Filter
 ```php
 <?php
-use dc\Filter\Collection;
+use DigitalCharacter\Filter\Collection;
 
 $collection = new Collection();
 
@@ -86,7 +86,7 @@ $collection->addCustomFilter('key', 'value', 'find_in_set');
 ## Example
 ```php
 <?php 
-use dc\Filter\Collection;
+use DigitalCharacter\Filter\Collection;
 
 $collection = new Collection();
 $collection->addEqual('user', 'user@example.com')

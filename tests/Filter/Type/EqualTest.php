@@ -1,8 +1,8 @@
 <?php
 
-namespace dc\tests\Filter;
+namespace DigitalCharacter\tests\Filter;
 
-use dc\Filter\Type\Equal;
+use DigitalCharacter\Filter\Type\Equal;
 use PHPUnit\Framework\TestCase;
 
 class EqualTest extends TestCase

@@ -1,12 +1,15 @@
 <?php
 
-namespace dc\tests\Iterator;
+namespace DigitalCharacter\tests\Iterator;
 
-use dc\Filter\Collection;
+use DigitalCharacter\Filter\Collection;
 use PHPUnit\Framework\TestCase;
 
 class RecursiveIteratorTest extends TestCase
 {
+    /**
+     * @throws \DigitalCharacter\Exception\CollectionException
+     */
     public function testIteration()
     {
         $collection = new Collection();
