@@ -1,8 +1,8 @@
 <?php
 
-namespace DigitalCharacter\tests\Filter;
+namespace digitalCharacter\tests\Filter;
 
-use DigitalCharacter\Filter\Type\In;
+use digitalCharacter\Filter\Type\In;
 use PHPUnit\Framework\TestCase;
 
 class InTest extends TestCase

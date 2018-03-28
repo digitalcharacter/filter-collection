@@ -1,8 +1,8 @@
 <?php
 
-namespace DigitalCharacter\tests\Exception;
+namespace digitalCharacter\tests\Exception;
 
-use DigitalCharacter\Exception\CollectionException;
+use digitalCharacter\Exception\CollectionException;
 use PHPUnit\Framework\TestCase;
 
 class CollectionExceptionTest extends TestCase

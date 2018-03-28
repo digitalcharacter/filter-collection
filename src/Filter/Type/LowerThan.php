@@ -1,6 +1,6 @@
 <?php
 
-namespace DigitalCharacter\Filter\Type;
+namespace digitalCharacter\Filter\Type;
 
 
 final class LowerThan extends Custom
