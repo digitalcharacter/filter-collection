@@ -2,6 +2,7 @@
   "name": "digitalcharacter/filter-collection",
   "description": "simple filter collection",
   "minimum-stability": "stable",
+  "version": "1.0.0",
   "keywords": [
     "php",
     "filter",
