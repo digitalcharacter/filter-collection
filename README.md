@@ -1,7 +1,9 @@
 [![Build Status](https://travis-ci.org/DigitalCharacter/FilterCollection.svg?branch=master)](https://travis-ci.org/DigitalCharacter/FilterCollection)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dc/FilterCollection/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dc/FilterCollection/?branch=master)
-[![Code Coverage](https://scrutinizer-ci.com/g/DigitalCharacter/FilterCollection/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/DigitalCharacter/FilterCollection/?branch=master)
-[![Packagist](https://img.shields.io/packagist/v/digitalcharacter/filter-collection.svg?style=flat-square)](https://packagist.org/packages/digitalcharacter/filter-collection)
+[![PHP from Packagist](https://img.shields.io/packagist/php-v/digitalcharacter/filter-collection.svg)](http://php.net/)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/digitalcharacter/filter-collection/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/digitalcharacter/filter-collection/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/digitalcharacter/filter-collection/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/digitalcharacter/filter-collection/?branch=master)
+[![Packagist](https://img.shields.io/packagist/v/digitalcharacter/filter-collection.svg)](https://packagist.org/packages/digitalcharacter/filter-collection)
+
 
 # FilterCollection
 Simple nested Filter Collection
