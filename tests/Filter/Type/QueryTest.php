@@ -1,8 +1,8 @@
 <?php
 
-namespace digitalCharacter\tests\Filter;
+namespace digitalcharacter\tests\Filter;
 
-use digitalCharacter\Filter\Type\Query;
+use digitalcharacter\Filter\Type\Query;
 use PHPUnit\Framework\TestCase;
 
 class QueryTest extends TestCase

@@ -1,6 +1,6 @@
 <?php
 
-namespace digitalCharacter\Exception;
+namespace digitalcharacter\Exception;
 
 
 class CollectionException extends \Exception

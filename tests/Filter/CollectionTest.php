@@ -1,10 +1,10 @@
 <?php
 
-namespace digitalCharacter\tests\Filter;
+namespace digitalcharacter\tests\Filter;
 
-use digitalCharacter\Filter\Collection;
-use digitalCharacter\Filter\Type;
-use digitalCharacter\Exception\CollectionException;
+use digitalcharacter\Filter\Collection;
+use digitalcharacter\Filter\Type;
+use digitalcharacter\Exception\CollectionException;
 use PHPUnit\Framework\TestCase;
 
 class CollectionTest extends TestCase

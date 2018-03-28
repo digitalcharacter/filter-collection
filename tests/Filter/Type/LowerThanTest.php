@@ -1,8 +1,8 @@
 <?php
 
-namespace digitalCharacter\tests\Filter;
+namespace digitalcharacter\tests\Filter;
 
-use digitalCharacter\Filter\Type\LowerThan;
+use digitalcharacter\Filter\Type\LowerThan;
 use PHPUnit\Framework\TestCase;
 
 class LowerThanTest extends TestCase

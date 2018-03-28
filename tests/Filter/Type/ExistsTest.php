@@ -1,8 +1,8 @@
 <?php
 
-namespace digitalCharacter\tests\Filter;
+namespace digitalcharacter\tests\Filter;
 
-use digitalCharacter\Filter\Type\Exists;
+use digitalcharacter\Filter\Type\Exists;
 use PHPUnit\Framework\TestCase;
 
 class ExistsTest extends TestCase

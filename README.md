@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/digitalCharacter/FilterCollection.svg)](https://travis-ci.org/digitalCharacter/FilterCollection)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/digitalCharacter/FilterCollection/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/digitalCharacter/FilterCollection/?branch=master)
+[![Build Status](https://travis-ci.org/digitalcharacter/FilterCollection.svg)](https://travis-ci.org/digitalcharacter/FilterCollection)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/digitalcharacter/FilterCollection/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/digitalcharacter/FilterCollection/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/schmittjoh/JMSSerializerBundle/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/schmittjoh/JMSSerializerBundle/?branch=master)
 
 # FilterCollection
@@ -7,13 +7,13 @@ Simple nested Filter Collection
 
 # Composer Install
 ```bash
-composer require digitalCharacter/FilterCollection@stable
+composer require digitalcharacter/FilterCollection@stable
 ```
 
 ```json
 {
     "require": {
-        "digitalCharacter/FilterCollection": "@stable"
+        "digitalcharacter/FilterCollection": "@stable"
     }
 }
 ```
@@ -23,7 +23,7 @@ composer require digitalCharacter/FilterCollection@stable
 ## Change Logical Collection
 ```php
 <?php
-use digitalCharacter\Filter\Collection;
+use digitalcharacter\Filter\Collection;
 
 $collection = new Collection(Collection::LOGICAL_AND);
 $collection = new Collection(Collection::LOGICAL_OR);
@@ -34,7 +34,7 @@ $collection = new Collection(Collection::LOGICAL_XOR);
 ## Add Parent Collection
 ```php
 <?php
-use digitalCharacter\Filter\Collection;
+use digitalcharacter\Filter\Collection;
 
 $parent = new Collection();
 $child = new Collection(Collection::LOGICAL_AND, $parent);
@@ -43,7 +43,7 @@ $child = new Collection(Collection::LOGICAL_AND, $parent);
 ## Available Filter
 ```php
 <?php
-use digitalCharacter\Filter\Collection;
+use digitalcharacter\Filter\Collection;
 
 $collection = new Collection();
 
@@ -87,7 +87,7 @@ $collection->addCustomFilter('key', 'value', 'find_in_set');
 ## Example
 ```php
 <?php 
-use digitalCharacter\Filter\Collection;
+use digitalcharacter\Filter\Collection;
 
 $collection = new Collection();
 $collection->addEqual('user', 'user@example.com')
