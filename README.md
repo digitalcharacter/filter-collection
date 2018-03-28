@@ -17,9 +17,9 @@ composer require DigitalCharacter/FilterCollection@stable
 }
 ```
 
-#Usage
+# Usage
 
-##Change Logical Collection
+## Change Logical Collection
 ```php
 <?php
 use dc\Filter\Collection;
@@ -30,7 +30,7 @@ $collection = new Collection(Collection::LOGICAL_XAND);
 $collection = new Collection(Collection::LOGICAL_XOR);
 ```
 
-##Add Parent Collection
+## Add Parent Collection
 ```php
 <?php
 use dc\Filter\Collection;
@@ -39,7 +39,7 @@ $parent = new Collection();
 $child = new Collection(Collection::LOGICAL_AND, $parent);
 ```
 
-##Available Filter
+## Available Filter
 ```php
 <?php
 use dc\Filter\Collection;
@@ -83,7 +83,7 @@ $collection->addRegex('key', '/value/');
 $collection->addCustomFilter('key', 'value', 'find_in_set');
 ```
 
-##Example
+## Example
 ```php
 <?php 
 use dc\Filter\Collection;
