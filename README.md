@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/dc/FilterCollection.svg)](https://travis-ci.org/dc/FilterCollection)
+[![Build Status](https://travis-ci.org/DigitalCharacter/FilterCollection.svg?branch=master)](https://travis-ci.org/DigitalCharacter/FilterCollection)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dc/FilterCollection/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/dc/FilterCollection/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/DigitalCharacter/FilterCollection/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/DigitalCharacter/FilterCollection/?branch=master)
 [![Packagist](https://img.shields.io/packagist/v/digitalcharacter/filter-collection.svg?style=flat-square)](https://packagist.org/packages/digitalcharacter/filter-collection)
