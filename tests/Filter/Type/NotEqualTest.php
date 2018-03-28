@@ -1,8 +1,8 @@
 <?php
 
-namespace digitalcharacter\tests\Filter;
+namespace dc\tests\Filter;
 
-use digitalcharacter\Filter\Type\NotEqual;
+use dc\Filter\Type\NotEqual;
 use PHPUnit\Framework\TestCase;
 
 class NotEqualTest extends TestCase

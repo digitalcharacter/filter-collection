@@ -1,8 +1,8 @@
 <?php
 
-namespace digitalcharacter\tests\Filter;
+namespace dc\tests\Filter;
 
-use digitalcharacter\Filter\Type\Regex;
+use dc\Filter\Type\Regex;
 use PHPUnit\Framework\TestCase;
 
 class RegexTest extends TestCase

@@ -1,8 +1,8 @@
 <?php
 
-namespace digitalcharacter\tests\Filter;
+namespace dc\tests\Filter;
 
-use digitalcharacter\Filter\Type\Custom;
+use dc\Filter\Type\Custom;
 use PHPUnit\Framework\TestCase;
 
 class CustomTest extends TestCase

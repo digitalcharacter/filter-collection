@@ -1,9 +1,9 @@
 <?php
 
-namespace digitalcharacter\Iterator;
+namespace dc\Iterator;
 
 
-use digitalcharacter\Filter\Collection;
+use dc\Filter\Collection;
 
 class RecursiveIterator extends \RecursiveArrayIterator
 {

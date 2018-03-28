@@ -1,6 +1,6 @@
 <?php
 
-namespace digitalcharacter\Filter\Type;
+namespace dc\Filter\Type;
 
 
 interface FilterInterface
